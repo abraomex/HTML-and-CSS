@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+    <form action="indext.text" method="get" enctype="multipart/form-data">
+        <label for="username">Username:</label>
+        <input type="text" id="username" required minlength="5" placeholder="username" maxlength="255">
+    <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" required minlength="4" placeholder="123!@#As" >
+    <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required placeholder="you@gmail.com">
+    <br><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" required placeholder="+251963210890">
+    <br><br>
+        <label for="date">BirthDate</label>
+        <input type="date" id="date">
+    <br><br>
+        <label for="quantity">Quantity</label>
+        <input type="number"id="quantity" min="0" max="99" value="0" >
+    <br><br>
+        <label for="sex">Sex:</label>
+
+        <label for="male">M</label>
+        <input type="radio" id="male" name="Sex">
+        <label for="female">F</label>
+        <input type="radio" id="female" name="Sex">
+    <br><br>
+        <label for="payment">Payment</label>
+        <select name="payment" id="payment">
+            <option value="CBE Birr" >CBE Birr</option>
+            <option value="telebirr">Tele Birr</option>
+        </select>
+    <br><br>
+        <label for="file">File</label>
+        <input type="file" name="file" id="file" accept="image/png, image/jpeg">    
+    <br><br>
+        <label for="comment">Feadback</label>
+        <textarea ></textarea>
+    <br><br>
+        <label for="accept">Accept</label>
+        <input type="checkbox" name="accept" id="accept" required>
+        
+        
+        <br><br>
+        <input type="reset" id="reset">
+        <input type="submit">
+    </form>
+</body>
+</html>
