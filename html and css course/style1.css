@@ -14,12 +14,14 @@ h1{
 }
 #p1{
     color: rgb(0, 47, 255);
+    text-align: right;
 }
 #p2{
     color: aqua;
 }
 #p3{
     color: gold;
+    text-align: right;
 }
 #p1, #p2, #p4{
     font-size: x-large;
