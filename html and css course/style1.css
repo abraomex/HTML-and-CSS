@@ -30,8 +30,11 @@ h1{
     border-style: solid;
 }
 body{
-    background-image: url(images/favican.png);
+    /*background-image: url(images/favican.png);*/
     background-repeat: no-repeat;
     background-position: left;
     background-attachment: scroll;
+}
+section{
+    text-shadow: 7px 7px 10px red;
 }
