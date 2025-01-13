@@ -1,0 +1,23 @@
+h1{
+    background-color: rgb(151, 151, 104);
+}
+.par1{
+    background-color: blueviolet;
+    font-weight: bold;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.par2{
+    background-color: brown;
+    font-weight: bold;
+    font-size: large;
+}
+#p1{
+    color: rgb(0, 47, 255);
+}
+#p2{
+    color: aqua;
+}
+#p3{
+    color: gold;
+}
