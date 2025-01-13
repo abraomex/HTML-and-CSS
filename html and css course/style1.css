@@ -1,16 +1,16 @@
+/*selector*/
 h1{
     background-color: rgb(151, 151, 104);
 }
 .par1{
     background-color: blueviolet;
     font-weight: bold;
-    font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .par2{
     background-color: brown;
     font-weight: bold;
-    font-size: large;
+    
 }
 #p1{
     color: rgb(0, 47, 255);
@@ -20,4 +20,16 @@ h1{
 }
 #p3{
     color: gold;
+}
+#p1, #p2, #p4{
+    font-size: x-large;
+    border-color: black;
+    color: rgb(103, 252, 103);
+    border-style: solid;
+}
+body{
+    background-image: url(images/favican.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: scroll;
 }
